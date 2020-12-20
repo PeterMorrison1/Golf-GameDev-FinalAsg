@@ -28,3 +28,8 @@ The mechanics for the player include:
 The unique components of the game include:
 * Platformer mechanics such as moving platforms, obstacles, and coins
 * Timed levels to compete with friends or yourself
+
+
+# Resources
+* All images were sourced from the Kenny Assets (https://www.kenney.nl/assets)
+* All audio was sourced from OpenGameArt.org, the file names have the same titles on the website
