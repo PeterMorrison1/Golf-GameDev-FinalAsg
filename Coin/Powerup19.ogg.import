@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Powerup19.ogg-0b61dcbcf28351d845fd86b35b66f7f1.oggstr"
+
+[deps]
+
+source_file="res://Coin/Powerup19.ogg"
+dest_files=[ "res://.import/Powerup19.ogg-0b61dcbcf28351d845fd86b35b66f7f1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

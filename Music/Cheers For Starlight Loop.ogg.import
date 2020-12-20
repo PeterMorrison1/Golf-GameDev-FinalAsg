@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Cheers For Starlight Loop.ogg-88497d988bb5deb956fb8eb0e964b246.oggstr"
+
+[deps]
+
+source_file="res://Music/Cheers For Starlight Loop.ogg"
+dest_files=[ "res://.import/Cheers For Starlight Loop.ogg-88497d988bb5deb956fb8eb0e964b246.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

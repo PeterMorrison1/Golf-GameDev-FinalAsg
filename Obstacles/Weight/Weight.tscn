@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Obstacles/Weight/chain.png" type="Texture" id=1]
+[ext_resource path="res://Obstacles/Weight/weightAttached.png" type="Texture" id=2]
+[ext_resource path="res://Obstacles/Weight/Weight.gd" type="Script" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16, 328 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 56, 56 )
+
+[node name="Weight" type="RigidBody2D"]
+collision_layer = 2
+collision_mask = 2
+mode = 3
+script = ExtResource( 3 )
+
+[node name="Weight_image" type="Sprite" parent="."]
+position = Vector2( 0, 536.447 )
+texture = ExtResource( 2 )
+
+[node name="Chain" type="Sprite" parent="."]
+position = Vector2( -233.962, -58.5934 )
+texture = ExtResource( 1 )
+offset = Vector2( 234.962, -43.4066 )
+
+[node name="Chain2" type="Sprite" parent="."]
+position = Vector2( -233.962, 69.2229 )
+texture = ExtResource( 1 )
+offset = Vector2( 234.962, -43.4066 )
+
+[node name="Chain3" type="Sprite" parent="."]
+position = Vector2( -233.962, 197.223 )
+texture = ExtResource( 1 )
+offset = Vector2( 234.962, -43.4066 )
+
+[node name="Chain4" type="Sprite" parent="."]
+position = Vector2( -233.962, 325.223 )
+texture = ExtResource( 1 )
+offset = Vector2( 234.962, -43.4066 )
+
+[node name="Chain5" type="Sprite" parent="."]
+position = Vector2( -233.962, 453.223 )
+texture = ExtResource( 1 )
+offset = Vector2( 234.962, -43.4066 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 160 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 544 )
+shape = SubResource( 2 )
+
+[node name="Tween" type="Tween" parent="."]
+repeat = true
+playback/repeat = true

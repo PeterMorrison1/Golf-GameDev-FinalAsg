@@ -15,9 +15,21 @@ _global_script_class_icons={
 
 [application]
 
-config/name="MoonBall"
+config/name="GolfGame"
+run/main_scene="res://MainMenu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+PlayerVariables="*res://Globals/PlayerVariables.gd"
+LevelManager="*res://Globals/LevelManager.gd"
+
+[display]
+
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [rendering]
 
+quality/2d/use_pixel_snap=true
 environment/default_environment="res://default_env.tres"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Lively Meadow (Victory Fanfare and Song).ogg-c8bdd8854ed7d2d6cdcaaaa51d41a544.oggstr"
+
+[deps]
+
+source_file="res://Music/Lively Meadow (Victory Fanfare and Song).ogg"
+dest_files=[ "res://.import/Lively Meadow (Victory Fanfare and Song).ogg-c8bdd8854ed7d2d6cdcaaaa51d41a544.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
